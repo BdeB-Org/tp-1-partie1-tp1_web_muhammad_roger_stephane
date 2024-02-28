@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(235, 92, 92);
+}
+
+.topnav {
+    background-color: rgb(24, 24, 24);
+    font-family: "Palanquin", sans-serif;
+    overflow: hidden;
+    border: solid black 2pt;
+    height: 220px;
+}
+
+.botnav {
+    background-color: rgb(24, 24, 24);
+    font-family: "Palanquin", sans-serif;
+    overflow: hidden;
+    position: absolute;
+    bottom: 24px;
+    right: 600px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+}
+
+.logo {
+    font-family: "Spartan", sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 10px 10px;
+    margin-right: 800px;
+    margin-top: 75px;
+    float: right;
+    font-weight: bold;
+    align-content: center;
+}
+
+.mangaLogo {
+    margin-left: 700px;
+    margin: 5px 5px 5px 5px;
+    height: 200px;
+    width: 200px;
+    position: center;
+    border: solid black 2pt;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    opacity: 0.7;
+}
+
+footer {
+    position: absolute;
+    font-family: "Palanquin", sans-serif;
+    bottom: 0px;
+    overflow: hidden;
+    width: 100%;
+    color: white;
+    background-color: rgb(24, 24, 24);
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box #content {
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+.wrapper {
+    position: absolute;
+    top: 123px;
+    right: 800px;
+
+}
