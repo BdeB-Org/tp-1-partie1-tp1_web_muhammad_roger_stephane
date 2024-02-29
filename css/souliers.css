@@ -7,7 +7,7 @@ body {
     font-family: "Palanquin", sans-serif;
     overflow: hidden;
     border: solid black 2pt;
-    height: 220px;
+    height: 210px;
 }
 
 .botnav {
@@ -15,8 +15,8 @@ body {
     font-family: "Palanquin", sans-serif;
     overflow: hidden;
     position: absolute;
-    bottom: 24px;
-    right: 600px;
+    bottom: 23px;
+    right: 590px;
 }
 
 input {
