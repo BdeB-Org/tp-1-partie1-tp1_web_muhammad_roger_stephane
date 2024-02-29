@@ -1,20 +1,20 @@
 /* Styles for the h1 and h2 headings */
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 57px;
+    font-size: 56px;
     text-decoration: underline;
   }
   
   h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 45px;
+    font-size: 44px;
     text-decoration: underline;
   }
   
   /* Styles for the input box */
   input {
-    width: 300px;
-    height: 15px;
+    width: 299px;
+    height: 14px;
   }
   
   /* Center align the search box */
