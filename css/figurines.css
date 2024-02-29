@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(235, 92, 92);
+}
+
+.topnav {
+  background-color: rgb(24, 24, 24);
+  font-family: "Palanquin", sans-serif;
+  overflow: hidden;
+}
+
+.logo {
+  font-family: "Spartan", sans-serif;
+  color: white;
+  font-size: 50px;
+  padding: 10px 10px;
+  margin-right: 800px;
+  margin-top: 75px;
+  float: right;
+  font-weight: bold;
+  align-content: center;
+}
+
+.pix {
+  grid-template-columns: none;
+  display: inline-block;
+  grid-template-rows: none;
+  padding: 20px;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+figure {
+  grid-template-columns: none;
+  display: inline-block;
+  grid-template-rows: none;
+  padding: 16px;
+  text-align: center;
+}
+
+section {
+  display: block;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+}
+
+footer {
+  position: relative;
+  font-family: "Palanquin", sans-serif;
+  bottom: 0px;
+  overflow: hidden;
+  width: 100%;
+  color: white;
+  background-color: rgb(24, 24, 24);
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box #content {
+  margin: 20px 0 0 0;
+  cursor: pointer;
+}
+
+.mangaLogo {
+  margin-left: 700px;
+  margin: 5px 5px 5px 5px;
+  height: 200px;
+  width: 200px;
+  position: center;
+}

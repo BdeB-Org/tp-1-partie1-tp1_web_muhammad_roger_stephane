@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(235, 92, 92);
+}
+
+.topnav {
+    background-color: rgb(24, 24, 24);
+    font-family: "Palanquin", sans-serif;
+    overflow: hidden;
+    border: solid black 2pt;
+    height: 220px;
+}
+
+.botnav {
+    background-color: rgb(24, 24, 24);
+    font-family: "Palanquin", sans-serif;
+    overflow: hidden;
+    position: absolute;
+    bottom: 24px;
+    right: 600px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+}
+
+.logo {
+    font-family: "Spartan", sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 10px 10px;
+    margin-right: 800px;
+    margin-top: 75px;
+    float: right;
+    font-weight: bold;
+    align-content: center;
+}
+
+.mangaLogo {
+    margin-left: 700px;
+    margin: 5px 5px 5
